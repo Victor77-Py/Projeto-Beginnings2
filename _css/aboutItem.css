@@ -1,0 +1,71 @@
+
+#interfaceItem {
+    width: 1000px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#craftItem h1 {
+    border: 1px solid #606060;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    display: block;
+}
+
+.unidade {
+    width: 50px;
+}
+
+.items {
+    width: 300px;
+}
+
+table thead tr {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+table thead tr#trUnidade {
+    background-color: #606060;
+    display: flex;
+    display: inline-flex;
+}
+
+table thead tr#trItems {
+    background-color: red;
+    display: flex;
+    display: inline-flex;
+}
+
+table thead tr#trUnidade th {
+    font-size: 16pt;
+}
+
+table thead tr#trItems th {
+    font-size: 16pt;
+}
+
+table tbody#unidade {
+    display: flex;
+    background-color: orange;
+}
+
+table tbody#items {
+    display: flex;
+    background-color: olivedrab;
+}
+
+
+#texto-item {
+    border-top: 2px solid #606060;
+    padding-top: 10px;
+}
+
+/*palegreen, #afeeee*/
