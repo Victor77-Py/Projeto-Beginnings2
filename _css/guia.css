@@ -1,3 +1,31 @@
+.formatacao-sections {
+    box-sizing: border-box;
+    border-top: 2px solid #606060;
+    padding-top: 20px;
+}
+
+.formatacao-fotos {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.formatacao-fotosNEdit {
+    width: 666px;
+}
+
+.blocos {
+    border: 2px solid #606060;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 15px;
+}
+
+.listas {
+    padding: 20px;
+    line-height: 30px;
+}
+
 #guia {
     background-color: white;
     width: 1000px;
@@ -16,7 +44,7 @@
     border-radius: 20px;
 }
 
-#guia div section > h2 {
+#guia section > h2 {
     line-height: 60px;
 }
 
@@ -25,40 +53,18 @@ p,span {
     text-align: justify;
 }
 
-.blocos {
-    border: 2px solid #606060;
-    border-radius: 10px;
-    margin-top: 80px;
-    padding: 15px;
+#section-um {
+    border: none;
+    margin-bottom: 40px;
 }
 
-.formatacao-sections {
-    box-sizing: border-box;
-    border-top: 2px solid #606060;
-    padding-top: 20px;
-}
-
-.formatacao-fotos {
-    display: block;
-    margin: 30px auto;
-    border-radius: 10px;
-}
-
-.formatacao-fotosNEdit {
-    width: 666px;
-}
-
-#bloco-um p {
+#section-um p {
     width: auto;
 }
 
-#bloco-um img {
+#section-um img {
     margin: 0px 0px 10px 10px;
     border-radius: 10px;
     float: right;
 }
 
-.listas {
-    padding: 20px;
-    line-height: 30px;
-}
