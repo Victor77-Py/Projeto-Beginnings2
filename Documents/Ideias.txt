@@ -1,0 +1,1 @@
+1- Fazer o menu ficar meio transparente quando rolar a pagina para baixo.

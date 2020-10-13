@@ -1,7 +1,14 @@
-.formatacao-sections {
+.formatacao-div {
     box-sizing: border-box;
     border-top: 2px solid #606060;
     padding-top: 20px;
+}
+
+.blocos {
+    border: 2px solid #606060;
+    border-radius: 10px;
+    margin-top: 80px;
+    padding: 15px;
 }
 
 .formatacao-fotos {
@@ -14,19 +21,7 @@
     width: 666px;
 }
 
-.blocos {
-    border: 2px solid #606060;
-    border-radius: 10px;
-    margin-top: 80px;
-    padding: 15px;
-}
-
-.listas {
-    padding: 20px;
-    line-height: 30px;
-}
-
-#guia {
+#interface {
     background-color: white;
     width: 1000px;
     height: auto;
@@ -36,7 +31,7 @@
     padding: 15px;
 }
 
-#guia > h1 {
+#interface > h1 {
     text-align: center;
     font-size: 2em;
     letter-spacing: 4px;
@@ -44,7 +39,7 @@
     border-radius: 20px;
 }
 
-#guia section > h2 {
+#interface section > h2 {
     line-height: 60px;
 }
 
@@ -52,19 +47,3 @@ p,span {
     text-indent: 40px;
     text-align: justify;
 }
-
-#section-um {
-    border: none;
-    margin-bottom: 40px;
-}
-
-#section-um p {
-    width: auto;
-}
-
-#section-um img {
-    margin: 0px 0px 10px 10px;
-    border-radius: 10px;
-    float: right;
-}
-

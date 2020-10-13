@@ -1,0 +1,25 @@
+.sections {
+    display: flex;
+    overflow-x: auto;
+    border-bottom: 2px solid #606060;
+}
+
+.sections::-webkit-scrollbar {
+    height: 4px;
+}
+
+.sections::-webkit-scrollbar-thumb {
+    background-color: #606060;
+}
+
+.sections .btn1 {
+    font-size: 20pt;
+    margin: 4px 8px 4px 8px;
+    line-height: 140px;
+    height: 140px;
+    min-width: 140px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}

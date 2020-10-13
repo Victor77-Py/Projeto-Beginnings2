@@ -1,8 +1,4 @@
-section#menu {
-    height: 1700px;
-}
-
-section#menu h1#titulo-principal {
+#interface #main-title {
     box-sizing: border-box;
     text-transform: uppercase;
     font-family: consolas, Arial, sans-serif;
@@ -18,13 +14,13 @@ section#menu h1#titulo-principal {
     transition: 0.2s;
 }
 
-section#menu h1#titulo-principal:hover {
+#interface #main-title:hover {
     background: white;
     box-shadow: 0px 0px 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
-    transition-delay: 1s;
+    transition-delay: 0.5s;
 }
 
-section#menu h2#sub-titulo {
+#interface #sub-title {
     box-sizing: border-box;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -41,41 +37,8 @@ section#menu h2#sub-titulo {
     transition: 0.2s;
 }
 
-section#menu h2#sub-titulo:hover {
+#interface #sub-title:hover {
     background: white;
     box-shadow:0px 0px 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
-    transition-delay: 1s;
+    transition-delay: 0.5s;
 }
-
-.blocos-um {
-    box-sizing: border-box;
-    position: relative;
-    width: 300px;
-    background: white;
-    color: black;
-    border-radius: 3px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
-}
-
-section#menu div#texto-um {
-    top: 100px;
-    left: 10%;
-}
-
-section#menu div#texto-dois {
-    top: 200px;
-    left: 70%;
-}
-
-section#menu div#texto-tres {
-    top: 300px;
-    left: 10%;
-}
-
-section#menu div#texto-quatro {
-    top: 400px;
-    left: 70%;
-}
-
-/*background: linear-gradient(360deg, rgb(8, 19, 173), rgb(11, 163, 143));*/

@@ -1,0 +1,21 @@
+
+#interface {
+    width: 1000px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#interface h1 {
+    border: 2px solid #606060;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#texto-item {
+    border-top: 2px solid #606060;
+    padding-top: 10px;
+}
