@@ -1,3 +1,20 @@
+#interface {
+    height: 1700px;
+}
+
+.blocos-um {
+    box-sizing: border-box;
+    position: relative;
+    width: 300px;
+    background: white;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
+}
+
+/* Main */
+
 #interface #main-title {
     box-sizing: border-box;
     text-transform: uppercase;
@@ -41,4 +58,26 @@
     background: white;
     box-shadow:0px 0px 10px rgb(255, 255, 255), 0 0 40px rgb(11, 163, 143), 0 0 80px  rgb(8, 19, 173);
     transition-delay: 0.5s;
+}
+
+/* Blocks */
+
+#interface #block-one {
+    top: 100px;
+    left: 10%;
+}
+
+#interface #block-two {
+    top: 200px;
+    left: 70%;
+}
+
+#interface #block-three {
+    top: 300px;
+    left: 10%;
+}
+
+#interface #block-four {
+    top: 400px;
+    left: 70%;
 }
